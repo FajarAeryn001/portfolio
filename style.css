@@ -1,0 +1,75 @@
+*, html {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.home {
+height: 100vh;
+background-color: black;
+}
+
+.navbar {
+    justify-content: space-between;
+    display: flex;
+    border-bottom: 2px solid grey;
+}
+
+.logo {
+   color: white;
+   padding: 15px;
+   cursor: pointer;
+   padding-left: 50px;
+}
+
+span {
+color: grey;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+list-style-type: none;
+margin: 10px;
+padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    font-display: bold;
+    font-size: 20px;
+    color: white;
+}
+
+a:hover {
+    color: grey;
+    transition-delay: 9ms;
+}
+
+img {
+    position: absolute;
+    height: 90%;
+    left: 70%;
+}
+
+.content {
+    color: white;
+    position: absolute;
+    left: 10%;
+    top: 40%;
+}
+ 
+
+h1 {
+    padding: 10px 0 10px;
+    letter-spacing: 2px;
+    font-size: 40px;
+}
+
+h3 {
+    color: grey;
+    font-size: 20px;
+    font-style: italic;
+}
